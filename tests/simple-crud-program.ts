@@ -1,6 +1,7 @@
 import { PublicKey } from "@solana/web3.js";
 
 describe("pda", () => {
+	//Find something else to do pg won't work
   const program = pg.program;
   const wallet = pg.wallet;
 
