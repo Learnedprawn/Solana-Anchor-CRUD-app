@@ -4,6 +4,8 @@ describe("pda", () => {
 	//Find something else to do pg won't work
   const program = pg.program;
   const wallet = pg.wallet;
+	const num = 1;
+	
 
   const [messagePda, messageBump] = PublicKey.findProgramAddressSync(
     [Buffer.from("message"), wallet.publicKey.toBuffer()],
